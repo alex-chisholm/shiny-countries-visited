@@ -21,6 +21,7 @@ app_ui = ui.page_fluid(
                 selectize=True
             ),
             ui.output_text("selected_countries"),
+            open="open",
         ),
         ui.output_plot("world_map")
     )
